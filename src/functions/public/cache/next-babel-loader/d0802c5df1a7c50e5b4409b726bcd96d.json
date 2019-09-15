@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nconst ProfilesSearch = ({\n  handleSearch\n}) => {\n  return __jsx(\"div\", null, __jsx(\"input\", {\n    onChange: handleSearch,\n    type: \"text\",\n    placeholder: \"Search...\"\n  }));\n};\n\nexport default ProfilesSearch;","map":null,"metadata":{},"sourceType":"module"}

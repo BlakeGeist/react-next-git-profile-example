@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nconst ExampleListItem = ({\n  clickAction,\n  userName\n}) => {\n  return __jsx(\"button\", {\n    onClick: () => {\n      clickAction(userName);\n    },\n    type: \"button\"\n  }, userName);\n};\n\nexport default ExampleListItem;","map":null,"metadata":{},"sourceType":"module"}

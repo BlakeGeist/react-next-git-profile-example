@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nconst Increment = ({\n  handleClick,\n  increment,\n  text\n}) => {\n  return __jsx(\"div\", null, __jsx(\"button\", {\n    onClick: handleClick,\n    value: increment,\n    type: \"button\"\n  }, unescape(text)));\n};\n\nexport default Increment;","map":null,"metadata":{},"sourceType":"module"}

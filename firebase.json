@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "src/app/.next",
+    "rewrites": [
+      {
+        "source": "**/**",
+        "function": "app"
+      }
+    ]
+  },
+  "functions": {
+    "source": "src/functions"
+ }
+}

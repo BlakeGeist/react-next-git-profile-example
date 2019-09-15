@@ -1,0 +1,143 @@
+[debug] [2019-09-15T07:05:27.408Z] ----------------------------------------------------------------------
+[debug] [2019-09-15T07:05:27.410Z] Command:       /Users/BGeist/.nvm/versions/node/v10.13.0/bin/node /Users/BGeist/.nvm/versions/node/v10.13.0/bin/firebase serve
+[debug] [2019-09-15T07:05:27.411Z] CLI Version:   7.2.4
+[debug] [2019-09-15T07:05:27.411Z] Platform:      darwin
+[debug] [2019-09-15T07:05:27.411Z] Node Version:  v10.13.0
+[debug] [2019-09-15T07:05:27.412Z] Time:          Sun Sep 15 2019 00:05:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-15T07:05:27.412Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-15T07:05:27.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-15T07:05:27.428Z] > authorizing via signed-in user
+[debug] [2019-09-15T07:05:27.428Z] [iam] checking project next-github-profiles-example for permissions ["firebase.projects.get"]
+[debug] [2019-09-15T07:05:27.431Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-github-profiles-example:testIamPermissions  
+
+[debug] [2019-09-15T07:05:27.633Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-15T07:05:27.635Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example  
+ 
+[debug] [2019-09-15T07:05:27.936Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example'...
+[info] 
+[debug] [2019-09-15T07:05:27.941Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-09-15T07:05:28.230Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: src/app/.next
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-09-15T07:05:28.647Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T07:05:28.648Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T07:05:28.651Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T07:05:28.653Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T07:05:28.654Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js:1
+(function (exports, require, module, __filename, __dirname) { import next from 'next';
+                                                                     ^^^^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-09-15T07:05:38.762Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js changed, reloading triggers
+[debug] [2019-09-15T07:05:41.960Z] ----------------------------------------------------------------------
+[debug] [2019-09-15T07:05:41.964Z] Command:       /Users/BGeist/.nvm/versions/node/v10.13.0/bin/node /Users/BGeist/.nvm/versions/node/v10.13.0/bin/firebase serve
+[debug] [2019-09-15T07:05:41.964Z] CLI Version:   7.2.4
+[debug] [2019-09-15T07:05:41.964Z] Platform:      darwin
+[debug] [2019-09-15T07:05:41.964Z] Node Version:  v10.13.0
+[debug] [2019-09-15T07:05:41.965Z] Time:          Sun Sep 15 2019 00:05:41 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-15T07:05:41.965Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-15T07:05:41.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-15T07:05:41.977Z] > authorizing via signed-in user
+[debug] [2019-09-15T07:05:41.977Z] [iam] checking project next-github-profiles-example for permissions ["firebase.projects.get"]
+[debug] [2019-09-15T07:05:41.979Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-github-profiles-example:testIamPermissions  
+
+[debug] [2019-09-15T07:05:42.177Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-15T07:05:42.179Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example  
+ 
+[debug] [2019-09-15T07:05:42.392Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example'...
+[info] 
+[debug] [2019-09-15T07:05:42.398Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-09-15T07:05:42.689Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: src/app/.next
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-09-15T07:05:43.072Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T07:05:43.073Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T07:05:43.083Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T07:05:43.093Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T07:05:43.095Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js:1
+(function (exports, require, module, __filename, __dirname) { const next from 'next';
+                                                                    ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-09-15T07:06:42.331Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js changed, reloading triggers
+[debug] [2019-09-15T07:06:43.760Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T07:06:43.762Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T07:06:43.775Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T07:06:43.776Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T07:06:43.782Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js:1
+(function (exports, require, module, __filename, __dirname) { const next require('next');
+                                                                    ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-09-15T07:07:34.080Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js changed, reloading triggers
+[debug] [2019-09-15T07:07:35.456Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T07:07:35.458Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T07:07:35.462Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T07:07:35.464Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T07:07:35.465Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js:1
+(function (exports, require, module, __filename, __dirname) { const next require('next');
+                                                                    ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
