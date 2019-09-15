@@ -1,0 +1,157 @@
+[debug] [2019-09-15T22:52:26.114Z] ----------------------------------------------------------------------
+[debug] [2019-09-15T22:52:26.117Z] Command:       /Users/BGeist/.nvm/versions/node/v10.13.0/bin/node /Users/BGeist/.nvm/versions/node/v10.13.0/bin/firebase serve
+[debug] [2019-09-15T22:52:26.120Z] CLI Version:   7.2.4
+[debug] [2019-09-15T22:52:26.120Z] Platform:      darwin
+[debug] [2019-09-15T22:52:26.120Z] Node Version:  v10.13.0
+[debug] [2019-09-15T22:52:26.121Z] Time:          Sun Sep 15 2019 15:52:26 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-15T22:52:26.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-15T22:52:26.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-15T22:52:26.142Z] > authorizing via signed-in user
+[debug] [2019-09-15T22:52:26.142Z] [iam] checking project next-github-profiles-example for permissions ["firebase.projects.get"]
+[debug] [2019-09-15T22:52:26.144Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-github-profiles-example:testIamPermissions  
+
+[debug] [2019-09-15T22:52:26.468Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-15T22:52:26.474Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example  
+ 
+[debug] [2019-09-15T22:52:26.691Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example'...
+[info] 
+[debug] [2019-09-15T22:52:26.698Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-09-15T22:52:27.044Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: src/functions/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-09-15T22:52:27.620Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T22:52:27.621Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[info] [hosting] Rewriting / to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[debug] [2019-09-15T22:52:32.051Z] Accepted request GET /next-github-profiles-example/us-central1/app/ --> app
+[debug] [2019-09-15T22:52:32.802Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:52:32.805Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-09-15T22:52:46.341Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/package.json changed, reloading triggers
+[debug] [2019-09-15T22:52:46.440Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/package.json changed, reloading triggers
+[debug] [2019-09-15T22:52:46.629Z] File /Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/package.json changed, reloading triggers
+[debug] [2019-09-15T22:55:56.127Z] ----------------------------------------------------------------------
+[debug] [2019-09-15T22:55:56.130Z] Command:       /Users/BGeist/.nvm/versions/node/v10.13.0/bin/node /Users/BGeist/.nvm/versions/node/v10.13.0/bin/firebase serve
+[debug] [2019-09-15T22:55:56.130Z] CLI Version:   7.2.4
+[debug] [2019-09-15T22:55:56.130Z] Platform:      darwin
+[debug] [2019-09-15T22:55:56.130Z] Node Version:  v10.13.0
+[debug] [2019-09-15T22:55:56.131Z] Time:          Sun Sep 15 2019 15:55:56 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-15T22:55:56.131Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-15T22:55:56.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-15T22:55:56.152Z] > authorizing via signed-in user
+[debug] [2019-09-15T22:55:56.152Z] [iam] checking project next-github-profiles-example for permissions ["firebase.projects.get"]
+[debug] [2019-09-15T22:55:56.155Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-github-profiles-example:testIamPermissions  
+
+[debug] [2019-09-15T22:55:56.396Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-15T22:55:56.400Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example  
+ 
+[debug] [2019-09-15T22:55:56.631Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example'...
+[info] 
+[debug] [2019-09-15T22:55:56.639Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-09-15T22:55:56.943Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: src/functions/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-09-15T22:55:57.831Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T22:55:57.831Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:55:57.831Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:55:57.831Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:55:57.831Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[app]: http function initialized (http://localhost:5001/next-github-profiles-example/us-central1/app).
+[info] [hosting] Rewriting / to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[debug] [2019-09-15T22:56:03.201Z] Accepted request GET /next-github-profiles-example/us-central1/app/ --> app
+[debug] [2019-09-15T22:56:03.853Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:56:03.855Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:56:03.861Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:56:03.863Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:03.865Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:04.166Z] [runtime-status] Trigger "app" has been found, beginning invocation! {}
+[debug] [2019-09-15T22:56:04.167Z] [runtime-status]  {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2019-09-15T22:56:04.167Z] [runtime-status] Running app in mode HTTPS {}
+[debug] [2019-09-15T22:56:04.177Z] {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94116.sock"}
+[debug] [2019-09-15T22:56:04.182Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94116.sock"}
+[debug] [2019-09-15T22:56:04.209Z] [runtime-status] Ephemeral server used! {}
+[info] >  Connect(pages_Index) returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic prerendering. https://err.sh/zeit/next.js/empty-object-getInitialProps
+[debug] [2019-09-15T22:56:05.063Z] [runtime-status] Ephemeral server survived. {}
+[info] [hosting] Rewriting /_next/static/SRSX6BIm5YrNXENcQnNG3/pages/index.js to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[info] [hosting] Rewriting /_next/static/SRSX6BIm5YrNXENcQnNG3/pages/_app.js to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[debug] [2019-09-15T22:56:05.189Z] Accepted request GET /next-github-profiles-example/us-central1/app/_next/static/SRSX6BIm5YrNXENcQnNG3/pages/index.js --> app
+[debug] [2019-09-15T22:56:05.198Z] Accepted request GET /next-github-profiles-example/us-central1/app/_next/static/SRSX6BIm5YrNXENcQnNG3/pages/_app.js --> app
+[info] i  functions: Finished "app" in ~1s
+[info] [hosting] Rewriting /_next/static/css/static/SRSX6BIm5YrNXENcQnNG3/pages/index.js.99c21d8d.chunk.css to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[info] [hosting] Rewriting /_next/static/css/styles.9d089ddf.chunk.css to http://localhost:5001/next-github-profiles-example/us-central1/app for local Function app
+[debug] [2019-09-15T22:56:05.243Z] Accepted request GET /next-github-profiles-example/us-central1/app/_next/static/css/static/SRSX6BIm5YrNXENcQnNG3/pages/index.js.99c21d8d.chunk.css --> app
+[debug] [2019-09-15T22:56:05.252Z] Accepted request GET /next-github-profiles-example/us-central1/app/_next/static/css/styles.9d089ddf.chunk.css --> app
+[debug] [2019-09-15T22:56:06.435Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:56:06.436Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:56:06.451Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:56:06.528Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.529Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.607Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T22:56:06.608Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:56:06.609Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:56:06.610Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:56:06.614Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:56:06.616Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.616Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:56:06.618Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.621Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.624Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.704Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[info] i  functions: Beginning execution of "app"
+[debug] [2019-09-15T22:56:06.709Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:56:06.715Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:56:06.717Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:06.718Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:56:07.193Z] [runtime-status] Trigger "app" has been found, beginning invocation! {}
+[debug] [2019-09-15T22:56:07.193Z] [runtime-status]  {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2019-09-15T22:56:07.193Z] [runtime-status] Running app in mode HTTPS {}
+[debug] [2019-09-15T22:56:07.241Z] {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94117.sock"}
+[debug] [2019-09-15T22:56:07.242Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94117.sock"}
+[debug] [2019-09-15T22:56:07.270Z] [runtime-status] Trigger "app" has been found, beginning invocation! {}
+[debug] [2019-09-15T22:56:07.270Z] [runtime-status]  {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2019-09-15T22:56:07.270Z] [runtime-status] Running app in mode HTTPS {}
+[debug] [2019-09-15T22:56:07.286Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-09-15T22:56:07.288Z] [runtime-status] Trigger "app" has been found, beginning invocation! {}
+[debug] [2019-09-15T22:56:07.289Z] [runtime-status]  {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2019-09-15T22:56:07.292Z] [runtime-status] Running app in mode HTTPS {}
+[debug] [2019-09-15T22:56:07.300Z] {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94119.sock"}
+[debug] [2019-09-15T22:56:07.301Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94119.sock"}
+[debug] [2019-09-15T22:56:07.333Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-09-15T22:56:07.356Z] {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94118.sock"}
+[debug] [2019-09-15T22:56:07.358Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94118.sock"}
+[debug] [2019-09-15T22:56:07.365Z] [runtime-status] Trigger "app" has been found, beginning invocation! {}
+[debug] [2019-09-15T22:56:07.365Z] [runtime-status]  {"httpsTrigger":{},"name":"app","entryPoint":"app"}
+[debug] [2019-09-15T22:56:07.366Z] [runtime-status] Running app in mode HTTPS {}
+[debug] [2019-09-15T22:56:07.379Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-09-15T22:56:07.381Z] {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94120.sock"}
+[debug] [2019-09-15T22:56:07.382Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/6y/zf5cylqs7vqc0fx94t3c82yh0000gp/T/firebase_emulator_invocation_94120.sock"}
+[debug] [2019-09-15T22:56:07.441Z] [runtime-status] Ephemeral server survived. {}
+[debug] [2019-09-15T22:56:07.460Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "app" in ~1s
+[debug] [2019-09-15T22:56:07.475Z] [runtime-status] Ephemeral server used! {}
+[info] i  functions: Finished "app" in ~1s
+[debug] [2019-09-15T22:56:07.618Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "app" in ~1s
+[debug] [2019-09-15T22:56:07.634Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "app" in ~1s

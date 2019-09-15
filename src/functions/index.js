@@ -1,6 +1,7 @@
 const next = require('next');
 const functions = require('firebase-functions');
-const app = next({ dev: false, conf: { distDir: "public" } })
+var dir = __dirname
+const app = next({ dev: false, dir, conf: { distDir: "public" } })
 const handle = app.getRequestHandler()
 
 exports.app = functions.https.onRequest((request, response) => {

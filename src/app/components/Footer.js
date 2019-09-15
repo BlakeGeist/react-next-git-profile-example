@@ -6,6 +6,8 @@ const Footer = () => {
 
       <div className="container">
 
+        This is the footer
+
       </div>
 
     </footer>

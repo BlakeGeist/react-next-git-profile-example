@@ -1,0 +1,45 @@
+[debug] [2019-09-15T22:54:27.251Z] ----------------------------------------------------------------------
+[debug] [2019-09-15T22:54:27.265Z] Command:       /Users/BGeist/.nvm/versions/node/v10.13.0/bin/node /Users/BGeist/.nvm/versions/node/v10.13.0/bin/firebase serve
+[debug] [2019-09-15T22:54:27.266Z] CLI Version:   7.2.4
+[debug] [2019-09-15T22:54:27.266Z] Platform:      darwin
+[debug] [2019-09-15T22:54:27.266Z] Node Version:  v10.13.0
+[debug] [2019-09-15T22:54:27.267Z] Time:          Sun Sep 15 2019 15:54:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-09-15T22:54:27.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-15T22:54:27.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-15T22:54:27.292Z] > authorizing via signed-in user
+[debug] [2019-09-15T22:54:27.292Z] [iam] checking project next-github-profiles-example for permissions ["firebase.projects.get"]
+[debug] [2019-09-15T22:54:27.296Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-github-profiles-example:testIamPermissions  
+
+[debug] [2019-09-15T22:54:27.539Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-15T22:54:27.545Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example  
+ 
+[debug] [2019-09-15T22:54:27.735Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example'...
+[info] 
+[debug] [2019-09-15T22:54:27.751Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/next-github-profiles-example/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-09-15T22:54:28.089Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: src/functions/public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-09-15T22:54:28.796Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions","node_version":"10.13.0"}
+[debug] [2019-09-15T22:54:28.796Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-15T22:54:28.801Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-15T22:54:28.801Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-15T22:54:28.802Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Could not find a valid build in the '/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/public' directory! Try building your app with 'next build' before starting the server.
+    at Server.readBuildId (/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/next-server/dist/server/next-server.js:425:23)
+    at new Server (/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/next-server/dist/server/next-server.js:46:29)
+    at module.exports (/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/next-server/index.js:4:10)
+    at module.exports.options (/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/node_modules/next/dist/server/next.js:2:161)
+    at Object.<anonymous> (/Users/BGeist/Documents/blakes-apps/react-next-git-profile-example/src/functions/index.js:4:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+[warn] ⚠  We were unable to load your functions code. (see above)

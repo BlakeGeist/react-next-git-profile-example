@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nconst Footer = () => {\n  return __jsx(\"footer\", null, __jsx(\"div\", {\n    className: \"container\"\n  }));\n};\n\nexport default Footer;","map":null,"metadata":{},"sourceType":"module"}
