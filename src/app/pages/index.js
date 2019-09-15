@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import ProfilesContainer from '../components/containers/ProfilesContainer';
 import Header from '../components/features/Header';
 import axios from 'axios';
+import Main from '../layouts/Main';
 import '../App.css';
 
 class Index extends React.Component {
@@ -23,8 +24,6 @@ class Index extends React.Component {
 
   componentDidMount () {
     // DISPATCH ACTIONS HERE FROM `mapDispatchToProps`
-    // TO TICK THE CLOCK
-    //this.timer = setInterval(() => this.props.startClock(), 1000)
   }
 
   componentWillUnmount () {
@@ -33,8 +32,8 @@ class Index extends React.Component {
 
   render () {
     return (
-      <div className="body">
-        <Header title="The GitHub Cards App" />
+      <Main>
+        <Header title="The GitHub Cards App " />
         <ProfilesContainer />
         <style jsx global>{`
           @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
@@ -206,7 +205,7 @@ class Index extends React.Component {
             padding: 15px;
           }
         `}</style>
-      </div>
+    </Main>
       )
   }
 }
