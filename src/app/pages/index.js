@@ -13,17 +13,24 @@ class Index extends React.Component {
     //reduxStore.dispatch(serverRenderClock(isServer))
     const apiCall = `https://api.github.com/users/blakegeist`;
 
-    const resp = await axios.get(apiCall)
+    await axios.get(apiCall)
+      .then((resp) => {
+        reduxStore.dispatch({
+          type: 'ADD_PROFILE',
+          profileData: resp.data
+        });
+      })
+      .catch((err) => {
+        console.log(err)
+      });
 
-    const data = await resp.data;
-
-    reduxStore.dispatch({ type: 'ADD_PROFILE', profileData: data });
-
-    return {}
+      return {}
   }
 
   componentDidMount () {
     // DISPATCH ACTIONS HERE FROM `mapDispatchToProps`
+    // TO TICK THE CLOCK
+    //this.timer = setInterval(() => this.props.startClock(), 1000)
   }
 
   componentWillUnmount () {

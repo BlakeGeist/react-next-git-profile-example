@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src/app/functions/public",
+    "public": "src/public",
     "rewrites": [
       {
         "source": "**/**",
@@ -9,6 +9,6 @@
     ]
   },
   "functions": {
-    "source": "src/app/functions"
+    "source": "src/functions"
  }
 }
