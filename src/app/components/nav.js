@@ -12,10 +12,10 @@ const links = [
 const Nav = () => (
   <nav>
     <ul>
-      <li><Link href="/">Home</Link></li>
+      <li><Link href="/"><a>Home</a></Link></li>
       {links.map(({ key, href, label }) => (
         <li key={key}>
-          <Link href={href}>{label}</Link>
+          <Link href={href}><a>{label}</a></Link>
         </li>
       ))}
     </ul>

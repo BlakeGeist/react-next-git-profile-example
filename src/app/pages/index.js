@@ -24,7 +24,7 @@ class Index extends React.Component {
         console.log(err)
       });
 
-      return {}
+      return {isServer}
   }
 
   componentDidMount () {
