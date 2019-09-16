@@ -53,6 +53,15 @@ const ProfilesControls = ({
     <div className={profiles.length > 1 || hasSearched ? 'profiles-controls' : ''}>
       {profiles.length > 1 || hasSearched ? <ProfilesSearch handleSearch={handleSearch} /> : ''}
       {profiles.length > 1 ? <ProfileSort handleSort={handleSort} /> : ''}
+      <style jsx global>{`
+        .profiles-controls{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: thin solid #ddd;
+          padding: 15px;
+        }
+      `}</style>
     </div>
   );
 

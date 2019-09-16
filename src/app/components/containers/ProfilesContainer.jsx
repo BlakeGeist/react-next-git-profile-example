@@ -9,6 +9,13 @@ const ProfilesContainer = () => {
       <DndProvider backend={HTML5Backend}>
         <ProfilesList />
       </DndProvider>
+      <style jsx global>{`
+      .profiles-container{
+        border: thin solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+    `}</style>
     </section>
   );
 };

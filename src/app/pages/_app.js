@@ -16,11 +16,6 @@ class MyApp extends App {
               height: 100%;
             }
 
-            .body {
-              max-width: 600px;
-              margin: 0 auto;
-            }
-
             .info {
               margin-left: 12px;
               display: flex;
@@ -141,44 +136,8 @@ class MyApp extends App {
             a:hover {
             color: #532600;
             }
-            .profiles-container{
-              border: thin solid #ddd;
-              border-radius: 10px;
-              overflow: hidden;
-            }
-            .profiles-profile{
-              border-bottom: 2px dashed #ccc;
-              display: flex;
-              padding: 1rem;
-              position: relative;
-            }
-            .profiles-profile:last-of-type{
-              border: none;
-            }
-            .profiles-profile-remove {
-              position: absolute;
-              top: 10px;
-              right: 15px;
-            }
-            .profiles-profile {
-              background-color: #fff;
-            }
-            .profiles-profile:nth-child(even) {
-              background-color: #f7f7f7;
-            }
-            .profiles-sort{
-              align-items: center;
-              display: flex;
-              justify-content: center;
-            }
-            .profiles-controls{
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              border-bottom: thin solid #ddd;
-              padding: 15px;
-            }
-          `}</style>        
+
+          `}</style>
       </Provider>
     )
   }

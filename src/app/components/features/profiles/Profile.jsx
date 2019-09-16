@@ -112,6 +112,40 @@ const Profile = ({
         {location ? <div className="location">{location}</div> : ''}
         <div className="created_at">{moment(createdAt).format('L')}</div>
       </div>
+      <style jsx global>{`
+        .profiles-profile{
+          border-bottom: 2px dashed #ccc;
+          display: flex;
+          padding: 1rem;
+          position: relative;
+        }
+        .profiles-profile:last-of-type{
+          border: none;
+        }
+        .profiles-profile-remove {
+          position: absolute;
+          top: 10px;
+          right: 15px;
+        }
+        .profiles-profile {
+          background-color: #fff;
+        }
+        .profiles-profile:nth-child(even) {
+          background-color: #f7f7f7;
+        }
+        .profiles-sort{
+          align-items: center;
+          display: flex;
+          justify-content: center;
+        }
+        .profiles-controls{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: thin solid #ddd;
+          padding: 15px;
+        }
+      `}</style>      
     </div>
   );
 };
