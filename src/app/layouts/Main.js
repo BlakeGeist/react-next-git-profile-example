@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Main = ({ children }) => {
+const Main = ({ children, pageMod }) => {
+  let containerClass = 'container';
+  if(pageMod){
+    containerClass += ' mod-' + pageMod + '-page';
+  }
   return (
     <>
       <Header />
       <main className="body">
-        <div className="container">
+        <div className={containerClass}>
           { children }
         </div>
       </main>

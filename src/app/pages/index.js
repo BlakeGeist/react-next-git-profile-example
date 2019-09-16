@@ -42,8 +42,7 @@ class Index extends React.Component {
       <Main>
         <Header title="The GitHub Cards App " />
         <ProfilesContainer />
-
-    </Main>
+      </Main>
       )
   }
 }
